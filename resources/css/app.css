@@ -1,0 +1,45 @@
+.text__home {
+    animation: fadeInLeft 1.5s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-150px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+.img__home {
+    animation: fadeInRight 1.5s;
+}
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(150px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+.this__list {
+    animation: fadeInBottom 1.5s;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+.text__list {
+    animation: fadeInLeft 1.5s;
+}
