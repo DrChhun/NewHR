@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.25">
     <title>Assigment</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="{{url('css/styles.css')}}"> -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" type="text/css" href="{{url('css/styles.css')}}">
+    <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
 </head>
 <body>
 
@@ -15,9 +15,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg shadow-sm py-6 bg-white relative flex items-center w-full justify-between">
         <div class="px-32 w-full flex flex-wrap items-center justify-between">
-        <div class="flex items-center">
+        <!-- <div class="flex items-center">
             <button
-            class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-white hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
+            class="navbar-toggler border-0 py-3  leading-none text-xl bg-transparent text-white hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContentY"
@@ -40,8 +40,8 @@
                 ></path>
             </svg>
             </button>
-        </div>
-        <div class="navbar-collapse collapse grow items-center flex justify-between" id="navbarSupportedContentY">
+        </div> -->
+        <div class="navbar-collapse grow items-center flex justify-between" id="navbarSupportedContentY">
         @auth
             <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
                <h1 class="flex items-center font-extrabold text-2xl mr-8"> <a href="/home">MEGA</a>  </h1>
